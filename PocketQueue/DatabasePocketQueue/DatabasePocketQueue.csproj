@@ -48,22 +48,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\Database\Context\ContextMaps\Senha\SenhaMap.cs" />
-    <Compile Include="DAO\Database\Context\ContextMaps\Senha\TipoSenhaMap.cs" />
-    <Compile Include="DAO\Database\Context\ContextMaps\Usuario\TipoUsuarioMap.cs" />
-    <Compile Include="DAO\Database\Context\ContextMaps\Usuario\UsuarioMap.cs" />
+    <Compile Include="DAO\Database\Context\ContextMaps\SenhaMap.cs" />
+    <Compile Include="DAO\Database\Context\ContextMaps\TipoSenhaMap.cs" />
+    <Compile Include="DAO\Database\Context\ContextMaps\TipoUsuarioMap.cs" />
+    <Compile Include="DAO\Database\Context\ContextMaps\UsuarioMap.cs" />
     <Compile Include="DAO\Database\Factory\Database.cs" />
-    <Compile Include="DAO\Database\IO\Funcionalidade\Funcionalidade.cs" />
-    <Compile Include="DAO\Database\IO\Senha\Senha.cs" />
-    <Compile Include="DAO\Database\IO\Senha\TipoSenha.cs" />
-    <Compile Include="DAO\Database\IO\Usuario\TipoUsuario.cs" />
-    <Compile Include="DAO\Database\IO\Usuario\Usuario.cs" />
-    <Compile Include="DAO\Entidades\Funcionalidade\Funcionalidade.cs" />
+    <Compile Include="DAO\Database\IRepositorio\IRepositorioSenha.cs" />
+    <Compile Include="DAO\Database\IRepositorio\IRepositorioTipoSenha.cs" />
+    <Compile Include="DAO\Database\IRepositorio\IRepositorioTipoUsuario.cs" />
+    <Compile Include="DAO\Database\IRepositorio\IRepositorioFuncionalidade.cs" />
+    <Compile Include="DAO\Database\IRepositorio\IRepositorioUsuario.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioFuncionalidade.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioSenha.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioTipoSenha.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioTipoUsuario.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioUsuario.cs" />
+    <Compile Include="DAO\Entidades\Funcionalidade.cs" />
     <Compile Include="DAO\Database\Context\Context.cs" />
-    <Compile Include="DAO\Entidades\Senha\Senha.cs" />
-    <Compile Include="DAO\Entidades\Senha\TipoSenha.cs" />
-    <Compile Include="DAO\Entidades\Usuario\TipoUsuario.cs" />
-    <Compile Include="DAO\Entidades\Usuario\Usuario.cs" />
+    <Compile Include="DAO\Entidades\Senha.cs" />
+    <Compile Include="DAO\Entidades\TipoSenha.cs" />
+    <Compile Include="DAO\Entidades\TipoUsuario.cs" />
+    <Compile Include="DAO\Entidades\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

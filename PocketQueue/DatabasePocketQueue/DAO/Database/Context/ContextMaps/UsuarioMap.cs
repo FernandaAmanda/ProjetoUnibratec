@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using DatabasePocketQueue.DAO.Entidades.Usuario;
+using DatabasePocketQueue.DAO.Entidades;
 
-namespace DatabasePocketQueue.DAO.Database.Context.ContextMaps.Usuario
+namespace DatabasePocketQueue.DAO.Database.Context.ContextMaps
 {
-    class UsuarioMap : EntityTypeConfiguration<DAO.Entidades.Usuario.Usuario>
+    class UsuarioMap : EntityTypeConfiguration<Usuario>
     {
         public UsuarioMap()
         {

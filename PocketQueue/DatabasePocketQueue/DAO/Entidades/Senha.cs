@@ -6,13 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DatabasePocketQueue.DAO.Entidades.Senha
+namespace DatabasePocketQueue.DAO.Entidades
 {
     /// <summary>
     /// Classe responsável pelas senhas que serão emitidas no sistema.
     /// </summary>
-    class Senha
+    public class Senha
     {
+        public Senha() { }
         public Senha(int idTipoSenha)
         {
             this.IDTipoSenha = idTipoSenha;

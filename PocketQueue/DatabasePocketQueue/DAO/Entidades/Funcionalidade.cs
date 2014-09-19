@@ -7,7 +7,7 @@ using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DatabasePocketQueue.DAO.Entidades.Funcionalidade
+namespace DatabasePocketQueue.DAO.Entidades
 {
     /// <summary>
     /// Esta classe representa quais as funcionalidades que o usuário possui.
@@ -15,8 +15,9 @@ namespace DatabasePocketQueue.DAO.Entidades.Funcionalidade
     /// outros usuários no sistema. Caso o usuário logado não tenha permissão para tal,
     /// o sistema não irá renderizar o botão de cadastro.
     /// </summary>
-    class Funcionalidade
+    public class Funcionalidade
     {
+        public Funcionalidade() { }
         public Funcionalidade(String descricaoFuncionalidade)
         {
             this.DescricaoFuncionalidade = descricaoFuncionalidade;

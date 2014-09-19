@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DatabasePocketQueue.DAO.Entidades.Usuario
+namespace DatabasePocketQueue.DAO.Entidades
 {
     /// <summary>
     /// Classe que representa o usuário do sistema, com informações pessoais e credenciais do sistema.
     /// </summary>
-    class Usuario
+    public class Usuario
     {
         public Usuario() { }
         public Usuario(string nome, string sobreNome, string cpf, string rg,

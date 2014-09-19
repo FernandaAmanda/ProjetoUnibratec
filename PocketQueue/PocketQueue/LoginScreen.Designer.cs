@@ -70,7 +70,7 @@
             this.progressBar.Location = new System.Drawing.Point(12, 189);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(181, 20);
-            this.progressBar.Step = 4;
+            this.progressBar.Step = 33;
             this.progressBar.TabIndex = 4;
             // 
             // label3
@@ -107,9 +107,10 @@
             this.loginButton.Location = new System.Drawing.Point(12, 139);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(181, 23);
-            this.loginButton.TabIndex = 8;
+            this.loginButton.TabIndex = 2;
             this.loginButton.Text = "Entrar";
             this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // passwordTextBox
             // 

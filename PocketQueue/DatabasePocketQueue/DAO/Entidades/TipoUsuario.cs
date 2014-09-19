@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DatabasePocketQueue.DAO.Entidades.Usuario
+namespace DatabasePocketQueue.DAO.Entidades
 {
     /// <summary>
     /// Tipo do usuário é a tabela do banco que indica em que 'patente' o usuário se encontra.
     /// Ex: Gerente, Atendente.
     /// </summary>
-    class TipoUsuario 
+    public class TipoUsuario 
     {
+        public TipoUsuario() { }
         public TipoUsuario(string descricaoUsuario)
         {
             this.DescricaoUsuario = descricaoUsuario;

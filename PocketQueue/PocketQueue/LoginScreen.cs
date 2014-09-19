@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using DatabasePocketQueue.ADO.Context;
-using DatabasePocketQueue.ADO.Usuario;
-using DatabasePocketQueue.ADO.Database;
 using System.Threading;
+using DatabasePocketQueue.DAO.Database.IRepositorio;
+using DatabasePocketQueue.DAO.Database.Repositorio;
+using DatabasePocketQueue.DAO.Entidades;
 
 namespace PocketQueue
 {
@@ -23,24 +23,23 @@ namespace PocketQueue
         }
 
         private void LoginScreen_Load(object sender, EventArgs e)
-        {            
-            Factory.CreateTables();
-            TipoUsuario t = new TipoUsuario("Encanador");
-            Usuario p = new Usuario("Teste", "teste", "teste","teste",
-                "teste", "teste", "teste", "teste", "teste", "teste", t.IDTipoUsuario);
-            Context dbContext = new Context();
-            dbContext.TipoUsuario.Add(t);
-            Console.WriteLine("Tipo usuário Criado!");
-            dbContext.Usuario.Add(p);
-            dbContext.SaveChanges();
-
-        }
-
-        private void passwordTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            /*Só precisa disso!*/
+            IRepositorioUsuario usuario = new RepositorioUsuario();
+            List<Usuario> usuariosCadastradosNoSistema = usuario.ListarUsuarios();
 
+            foreach (Usuario u in usuariosCadastradosNoSistema)
+            {
+                if (u.Login.Equals(loginTextBox.Text.ToString()) && u.Senha.Equals(passwordTextBox.Text.ToString()))
+                {
+                    MessageBox.Show("Parabéns, " + u.Nome + ", você fez login, você é foda pra caralho.");
+                }
+            }
+        }
     }
 }

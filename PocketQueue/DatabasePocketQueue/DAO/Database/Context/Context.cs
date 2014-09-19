@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
-using DatabasePocketQueue.DAO.Entidades.Senha;
-using DatabasePocketQueue.DAO.Entidades.Usuario;
+using DatabasePocketQueue.DAO.Entidades;
+using DatabasePocketQueue.DAO.Database.Context.ContextMaps;
 
 
 namespace DatabasePocketQueue.DAO.Database.Context
@@ -19,10 +19,10 @@ namespace DatabasePocketQueue.DAO.Database.Context
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new ContextMaps.Usuario.UsuarioMap());
-            modelBuilder.Configurations.Add(new ContextMaps.Usuario.TipoUsuarioMap());
-            modelBuilder.Configurations.Add(new ContextMaps.Senha.TipoSenhaMap());
-            modelBuilder.Configurations.Add(new ContextMaps.Senha.SenhaMap());
+            modelBuilder.Configurations.Add(new UsuarioMap());
+            modelBuilder.Configurations.Add(new TipoUsuarioMap());
+            modelBuilder.Configurations.Add(new TipoSenhaMap());
+            modelBuilder.Configurations.Add(new SenhaMap());
             base.OnModelCreating(modelBuilder);
         }
         //Senha

@@ -6,14 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DatabasePocketQueue.DAO.Entidades.Senha
+namespace DatabasePocketQueue.DAO.Entidades
 {
     /// <summary>
     /// Classe que representa o tipo da senha, contendo descrição sobre a mesma.
     /// Ex: Gestante, Idoso, Deficiente Físico.
     /// </summary>
-    class TipoSenha
+    public class TipoSenha
     {
+        public TipoSenha() { }
         public TipoSenha(string descricao)
         {
             this.Descricao = descricao;
