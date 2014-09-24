@@ -14,5 +14,6 @@ namespace DatabasePocketQueue.DAO.Database.IRepositorio
         List<Usuario> ListarUsuarios();
         List<Usuario> ListarUsuariosPorTipo(TipoUsuario tipoUsuario);
         bool AlterarUsuario(Usuario usuario);
+        List<Usuario> ListarUsuariosCompleto();
     }
 }

@@ -38,7 +38,7 @@ namespace DatabasePocketQueue.DAO.Database.Repositorio
             if (senha == null) return null;
             using (var db = new Context.Context())
             {
-                return db.Senha.Where(u => true).ToList();
+                return db.Senha.ToList();
             }
         }
         public bool AlterarSenha(Senha senha)

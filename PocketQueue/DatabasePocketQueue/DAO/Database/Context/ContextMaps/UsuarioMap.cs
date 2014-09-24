@@ -18,6 +18,9 @@ namespace DatabasePocketQueue.DAO.Database.Context.ContextMaps
 
             //Chave Estrangeira
             HasRequired(t => t.TipoUsuario);
+
+            HasMany(u => u.Senhas).WithRequired(s => s.Usuario)
+    .HasForeignKey(u => u.IDUsuario).WillCascadeOnDelete();
         }
     }
 }

@@ -16,15 +16,30 @@ namespace DatabasePocketQueue
         {
             Console.WriteLine("Overriding Existing Database...");
             Console.WriteLine((Database.OverrideExistingDatabase() ? "Success!" : "Failure..."));
-            RepositorioUsuario rep = new RepositorioUsuario();
-            RepositorioTipoUsuario rtUs = new RepositorioTipoUsuario();
-            TipoUsuario Tuser = new TipoUsuario("Faxineiro");
-            rtUs.InserirTipoUsuario(Tuser);
-            Usuario niggy = new Usuario("Niggy", "Johns", "123",
-"123", "123", "123.A", "123.B", "123", "123", "321", Tuser.IDTipoUsuario);
-            rep.InserirUsuario(niggy);
-            Usuario niggy2 = new Usuario("ASDF0", "PEDRO", "123", "456", "789", "...", ",,,", "123", "foo", "bar", Tuser.IDTipoUsuario);
-            rep.InserirUsuario(niggy2);
+            #region Teste Usuario
+            //Teste Usuario
+            RepositorioUsuario R = new RepositorioUsuario();
+            RepositorioTipoUsuario RT = new RepositorioTipoUsuario();
+            TipoUsuario T = new TipoUsuario("A");
+            RT.InserirTipoUsuario(T);
+            Usuario A = new Usuario("A", "A", "A", "A", "A", "A", "A", "A", "A", "A", T.IDTipoUsuario);
+            R.InserirUsuario(A);
+            Usuario B = new Usuario("B", "B", "B", "B", "B", "B", "B", "B", "B", "B", T.IDTipoUsuario);
+            R.InserirUsuario(B);
+            //EndTesteUsuario
+            #endregion
+
+            TipoSenha TS = new TipoSenha();
+            RepositorioTipoSenha rs = new RepositorioTipoSenha();
+            rs.InserirTipoSenha(TS);
+            RepositorioSenha s = new RepositorioSenha();
+            Senha p = new Senha(TS.IDTipoSenha);
+            p.IDUsuario = B.IDUsuario;
+            s.InserirSenha(p);
+            Senha senha = new Senha();
+
+            List<Usuario> u = R.ListarUsuariosCompleto();
+            u.Add(null);
 
 
             /*Context c = new Context();

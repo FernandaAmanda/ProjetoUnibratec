@@ -37,7 +37,7 @@ namespace DatabasePocketQueue.DAO.Database.Repositorio
         {
             using (var db = new Context.Context())
             {
-                return db.TipoUsuario.Where(t => true).ToList();
+                return db.TipoUsuario.ToList();
             }
         }
         public bool AlterarTipoUsuario(TipoUsuario usuario)

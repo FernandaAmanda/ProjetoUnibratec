@@ -13,7 +13,10 @@ namespace DatabasePocketQueue.DAO.Entidades
     /// </summary>
     public class Senha
     {
-        public Senha() { }
+        public Senha()
+        {
+            this.Criacao = DateTime.Now;
+        }
         public Senha(int idTipoSenha)
         {
             this.IDTipoSenha = idTipoSenha;
@@ -40,10 +43,19 @@ namespace DatabasePocketQueue.DAO.Entidades
         /// Data em que o cliente terminou o atendimento.
         /// </summary>
         public DateTime? Resolvido { get; set; }
-
         /// <summary>
-        /// Chave Estrangeira IDTipoSenha, Referencia TipoSenha
+        /// Chave Estrangeira IDTipoSenha, Referencia TipoSenha.
         /// </summary>
-        public virtual TipoSenha TipoSenha { get; set; }
+        public TipoSenha TipoSenha { get; set; }
+        /// <summary>
+        /// Usuario responsável pela solução da Senha.
+        /// </summary>
+        public Usuario Usuario { get; set; }
+        /// <summary>
+        /// ID do usuário.
+        /// </summary>
+        public int IDUsuario { get; set; }
+
+
     }
 }

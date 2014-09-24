@@ -82,5 +82,9 @@ namespace DatabasePocketQueue.DAO.Entidades
         /// ID da Chave Estrangeira
         /// </summary>
         public int IDTipoUsuario { get; set; }
+        /// <summary>
+        /// Lista de chamados que o Usuário atendeu.
+        /// </summary>
+        public List<Senha> Senhas { get; set; }
     }
 }
