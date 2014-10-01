@@ -28,3 +28,19 @@ C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\D
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources

@@ -27,3 +27,13 @@ C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQue
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe.config
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.dll
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.xml
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
