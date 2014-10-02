@@ -1,7 +1,6 @@
- PocketQueue/DatabasePocketQueue/obj/Debug/DesignTimeResolveAssemblyRefer
- encesInput.cache
- PocketQueue/PocketQueue/bin/Debug/PocketQueue.vshost.exe
- PocketQueue/PocketQueue/obj/Debug/DesignTimeResolveAssemblyReferences.cache
- PocketQueue/PocketQueue/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
- PocketQueue/PocketQueue/obj/Debug/PocketQueue.csproj.FileListAbsolute.txt
- PocketQueue/PocketQueue.v11.suo
+PocketQueue/DatabasePocketQueue/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+PocketQueue/PocketQueue/bin/*
+PocketQueue/PocketQueue/obj/*
+PocketQueue/*.suo
+PocketQueue/*.sln
+PocketQueue/*.vcsproj
