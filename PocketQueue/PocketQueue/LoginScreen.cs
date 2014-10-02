@@ -29,6 +29,8 @@ namespace PocketQueue
 
         private void loginButton_Click(object sender, EventArgs e)
         {
+            
+                   
             /*Só precisa disso!*/
             IRepositorioUsuario usuario = new RepositorioUsuario();
             List<Usuario> usuariosCadastradosNoSistema = usuario.ListarUsuarios();
@@ -40,6 +42,15 @@ namespace PocketQueue
                     MessageBox.Show("Parabéns, " + u.Nome + ", você fez login, você é foda pra caralho.");
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+                this.Hide();
+                TelaCadastroUsuario TelaCadastroUsuario = new TelaCadastroUsuario();
+                TelaCadastroUsuario.ShowDialog();
+                this.Close();
+            
         }
     }
 }
