@@ -46,5 +46,13 @@ namespace PocketQueue
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LoginScreen login = new LoginScreen(); /*instanciando a classe LoginScreen*/
+            MessageBox.Show("Cadastrado realizado com sucesso.");/* Mostra uma caixa de dialogo mensagem ("Cadastrado realizado com sucesso.")*/
+            this.Close();
+
+        }
     }
 }

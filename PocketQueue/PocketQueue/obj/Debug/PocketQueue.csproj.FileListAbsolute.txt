@@ -65,3 +65,5 @@ C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\D
 C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
 C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
 C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
+C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
