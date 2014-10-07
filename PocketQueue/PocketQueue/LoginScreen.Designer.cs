@@ -37,12 +37,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.loginButton = new System.Windows.Forms.Button();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
-            this.Cadastre = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // loginTextBox
             // 
-            this.loginTextBox.Location = new System.Drawing.Point(64, 87);
+            this.loginTextBox.Location = new System.Drawing.Point(80, 82);
             this.loginTextBox.Name = "loginTextBox";
             this.loginTextBox.Size = new System.Drawing.Size(129, 20);
             this.loginTextBox.TabIndex = 0;
@@ -51,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 90);
+            this.label1.Location = new System.Drawing.Point(28, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 2;
@@ -60,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 116);
+            this.label2.Location = new System.Drawing.Point(28, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 3;
@@ -68,7 +67,7 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(12, 189);
+            this.progressBar.Location = new System.Drawing.Point(28, 184);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(181, 20);
             this.progressBar.Step = 33;
@@ -78,7 +77,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(12, 173);
+            this.label3.Location = new System.Drawing.Point(28, 168);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 5;
@@ -88,7 +87,7 @@
             // 
             this.progressLabel.AutoSize = true;
             this.progressLabel.ForeColor = System.Drawing.Color.Red;
-            this.progressLabel.Location = new System.Drawing.Point(75, 173);
+            this.progressLabel.Location = new System.Drawing.Point(91, 168);
             this.progressLabel.Name = "progressLabel";
             this.progressLabel.Size = new System.Drawing.Size(116, 13);
             this.progressLabel.TabIndex = 6;
@@ -105,7 +104,7 @@
             // 
             // loginButton
             // 
-            this.loginButton.Location = new System.Drawing.Point(12, 139);
+            this.loginButton.Location = new System.Drawing.Point(28, 134);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(181, 23);
             this.loginButton.TabIndex = 2;
@@ -115,30 +114,18 @@
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(64, 113);
+            this.passwordTextBox.Location = new System.Drawing.Point(80, 108);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(129, 20);
             this.passwordTextBox.TabIndex = 1;
             this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.passwordTextBox.UseSystemPasswordChar = true;
             // 
-            // Cadastre
-            // 
-            this.Cadastre.AutoSize = true;
-            this.Cadastre.Location = new System.Drawing.Point(12, 52);
-            this.Cadastre.Name = "Cadastre";
-            this.Cadastre.Size = new System.Drawing.Size(63, 13);
-            this.Cadastre.TabIndex = 10;
-            this.Cadastre.TabStop = true;
-            this.Cadastre.Text = "Cadastre-se";
-            this.Cadastre.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Cadastre_LinkClicked);
-            // 
             // LoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(222, 269);
-            this.Controls.Add(this.Cadastre);
+            this.ClientSize = new System.Drawing.Size(233, 241);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.progressLabel);
@@ -167,7 +154,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button loginButton;
         private System.Windows.Forms.TextBox passwordTextBox;
-        private System.Windows.Forms.LinkLabel Cadastre;
     }
 }
 

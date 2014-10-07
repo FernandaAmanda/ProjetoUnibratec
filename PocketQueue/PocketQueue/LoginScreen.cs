@@ -45,14 +45,6 @@ namespace PocketQueue
         }
 
        
-        private void Cadastre_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            TelaCadastroUsuario tela = new TelaCadastroUsuario(); /* instanciando a classe TelaCadastroUsuario */
-            LoginScreen login = new LoginScreen(); /*instanciando a classe LoginScreen */
-            login.Close(); /*fecha o login */
-            tela.ShowDialog(); /*vai mostra a tela(TelaCadastroUsuario) */
-            
-
-        }
+      
     }
 }

@@ -37,8 +37,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.relatoriolabel = new System.Windows.Forms.Label();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.chcmarsenhagerentebutton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.finalizaratendimentogerentebutton = new System.Windows.Forms.Button();
@@ -51,11 +51,11 @@
             // 
             this.gerentelabel.AutoSize = true;
             this.gerentelabel.ForeColor = System.Drawing.Color.Olive;
-            this.gerentelabel.Location = new System.Drawing.Point(209, 9);
+            this.gerentelabel.Location = new System.Drawing.Point(157, 9);
             this.gerentelabel.Name = "gerentelabel";
-            this.gerentelabel.Size = new System.Drawing.Size(58, 13);
+            this.gerentelabel.Size = new System.Drawing.Size(138, 13);
             this.gerentelabel.TabIndex = 27;
-            this.gerentelabel.Text = "Bem Vindo";
+            this.gerentelabel.Text = "Bem Vindo PocketQueQue.";
             this.gerentelabel.Click += new System.EventHandler(this.gerentelabel_Click);
             // 
             // inserirusuariobutton
@@ -100,7 +100,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(101, 73);
+            this.label1.Location = new System.Drawing.Point(82, 72);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 17);
             this.label1.TabIndex = 32;
@@ -137,17 +137,17 @@
             this.shapeContainer1.TabIndex = 35;
             this.shapeContainer1.TabStop = false;
             // 
-            // rectangleShape1
-            // 
-            this.rectangleShape1.Location = new System.Drawing.Point(31, 61);
-            this.rectangleShape1.Name = "rectangleShape1";
-            this.rectangleShape1.Size = new System.Drawing.Size(186, 212);
-            // 
             // rectangleShape2
             // 
             this.rectangleShape2.Location = new System.Drawing.Point(257, 61);
             this.rectangleShape2.Name = "rectangleShape2";
             this.rectangleShape2.Size = new System.Drawing.Size(197, 266);
+            // 
+            // rectangleShape1
+            // 
+            this.rectangleShape1.Location = new System.Drawing.Point(31, 61);
+            this.rectangleShape1.Name = "rectangleShape1";
+            this.rectangleShape1.Size = new System.Drawing.Size(186, 212);
             // 
             // chcmarsenhagerentebutton
             // 
@@ -228,7 +228,7 @@
             this.Controls.Add(this.gerentelabel);
             this.Controls.Add(this.shapeContainer1);
             this.Name = "TelaGerente";
-            this.Text = "TelaGerente";
+            this.Text = "Tela de Gerente";
             this.ResumeLayout(false);
             this.PerformLayout();
 
