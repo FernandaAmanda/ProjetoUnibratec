@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.gerentelabel = new System.Windows.Forms.Label();
-            this.inserirusuariobutton = new System.Windows.Forms.Button();
+            this.cadastrarusuariobutton = new System.Windows.Forms.Button();
             this.consultarusuariobutton = new System.Windows.Forms.Button();
             this.alterarusuariobutton = new System.Windows.Forms.Button();
             this.removerusuariobutton = new System.Windows.Forms.Button();
@@ -58,15 +58,15 @@
             this.gerentelabel.Text = "Bem Vindo PocketQueQue.";
             this.gerentelabel.Click += new System.EventHandler(this.gerentelabel_Click);
             // 
-            // inserirusuariobutton
+            // cadastrarusuariobutton
             // 
-            this.inserirusuariobutton.Location = new System.Drawing.Point(40, 102);
-            this.inserirusuariobutton.Name = "inserirusuariobutton";
-            this.inserirusuariobutton.Size = new System.Drawing.Size(75, 23);
-            this.inserirusuariobutton.TabIndex = 28;
-            this.inserirusuariobutton.Text = "Inserir";
-            this.inserirusuariobutton.UseVisualStyleBackColor = true;
-            this.inserirusuariobutton.Click += new System.EventHandler(this.inserirusuariobutton_Click);
+            this.cadastrarusuariobutton.Location = new System.Drawing.Point(40, 102);
+            this.cadastrarusuariobutton.Name = "cadastrarusuariobutton";
+            this.cadastrarusuariobutton.Size = new System.Drawing.Size(75, 23);
+            this.cadastrarusuariobutton.TabIndex = 28;
+            this.cadastrarusuariobutton.Text = "Cadastrar";
+            this.cadastrarusuariobutton.UseVisualStyleBackColor = true;
+            this.cadastrarusuariobutton.Click += new System.EventHandler(this.inserirusuariobutton_Click);
             // 
             // consultarusuariobutton
             // 
@@ -224,7 +224,7 @@
             this.Controls.Add(this.removerusuariobutton);
             this.Controls.Add(this.alterarusuariobutton);
             this.Controls.Add(this.consultarusuariobutton);
-            this.Controls.Add(this.inserirusuariobutton);
+            this.Controls.Add(this.cadastrarusuariobutton);
             this.Controls.Add(this.gerentelabel);
             this.Controls.Add(this.shapeContainer1);
             this.Name = "TelaGerente";
@@ -237,7 +237,7 @@
         #endregion
 
         private System.Windows.Forms.Label gerentelabel;
-        private System.Windows.Forms.Button inserirusuariobutton;
+        private System.Windows.Forms.Button cadastrarusuariobutton;
         private System.Windows.Forms.Button consultarusuariobutton;
         private System.Windows.Forms.Button alterarusuariobutton;
         private System.Windows.Forms.Button removerusuariobutton;

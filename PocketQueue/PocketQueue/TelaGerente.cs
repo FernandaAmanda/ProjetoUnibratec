@@ -35,7 +35,7 @@ namespace PocketQueue
             this.Hide();
             TelaConsulta TelaConsulta = new TelaConsulta();
             TelaConsulta.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void fechargerentebutton_Click(object sender, EventArgs e)
