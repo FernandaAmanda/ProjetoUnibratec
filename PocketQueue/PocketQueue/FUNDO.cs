@@ -10,21 +10,23 @@ using System.Windows.Forms;
 
 namespace PocketQueue
 {
-    public partial class TelaCadastroUsuario : Form
+    public partial class FUNDO : Form
     {
-        public TelaCadastroUsuario()
+        public FUNDO()
         {
             InitializeComponent();
         }
-        
-        private void button2_Click(object sender, EventArgs e)
+
+        private void FUNDO_Load(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Hide();
+            LoginScreen login = new LoginScreen();
+            login.ShowDialog();
+            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-
 
         }
     }

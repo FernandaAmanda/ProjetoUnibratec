@@ -27,23 +27,13 @@ C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQue
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe.config
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe.config
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe.config
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.dll
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.dll
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.xml
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache

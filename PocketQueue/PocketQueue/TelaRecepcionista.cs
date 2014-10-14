@@ -10,21 +10,15 @@ using System.Windows.Forms;
 
 namespace PocketQueue
 {
-    public partial class TelaCadastroUsuario : Form
+    public partial class TelaRecepcionista : Form
     {
-        public TelaCadastroUsuario()
+        public TelaRecepcionista()
         {
             InitializeComponent();
         }
-        
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
 
         }
     }

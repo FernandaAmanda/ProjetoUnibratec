@@ -20,16 +20,20 @@ namespace DatabasePocketQueue
             //Teste Usuario
             RepositorioUsuario R = new RepositorioUsuario();
             RepositorioTipoUsuario RT = new RepositorioTipoUsuario();
-            TipoUsuario T = new TipoUsuario("A");
-            RT.InserirTipoUsuario(T);
-            Usuario A = new Usuario("A", "A", "A", "A", "A", "A", "A", "A", "A", "A", T.IDTipoUsuario);
+            
+            TipoUsuario AA = new TipoUsuario("A");
+            RT.InserirTipoUsuario(AA);
+            Usuario A = new Usuario("Gerente", "A", "A", "A", "A", "A", "A", "A", "A", "A", AA.IDTipoUsuario);
             R.InserirUsuario(A);
-            Usuario B = new Usuario("B", "B", "B", "B", "B", "B", "B", "B", "B", "B", T.IDTipoUsuario);
+
+            TipoUsuario BB = new TipoUsuario("B");
+            RT.InserirTipoUsuario(BB);
+            Usuario B = new Usuario("Recepcionista", "B", "B", "B", "B", "B", "B", "B", "B", "B", BB.IDTipoUsuario);
             R.InserirUsuario(B);
             //EndTesteUsuario
             #endregion
 
-            TipoSenha TS = new TipoSenha();
+            /*TipoSenha TS = new TipoSenha();
             RepositorioTipoSenha rs = new RepositorioTipoSenha();
             rs.InserirTipoSenha(TS);
             RepositorioSenha s = new RepositorioSenha();
@@ -39,7 +43,7 @@ namespace DatabasePocketQueue
             Senha senha = new Senha();
 
             List<Usuario> u = R.ListarUsuariosCompleto();
-            u.Add(null);
+            u.Add(null);*/
 
 
             /*Context c = new Context();

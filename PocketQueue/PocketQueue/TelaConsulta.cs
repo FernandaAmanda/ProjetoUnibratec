@@ -19,9 +19,6 @@ namespace PocketQueue
 
         private void voltartelagerentebutton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            TelaGerente TelaGerente = new TelaGerente();
-            TelaGerente.ShowDialog();
             this.Close();
         }
     }

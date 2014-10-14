@@ -67,10 +67,12 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(28, 184);
+            this.progressBar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.progressBar.Location = new System.Drawing.Point(-2, 231);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(181, 20);
+            this.progressBar.Size = new System.Drawing.Size(237, 13);
             this.progressBar.Step = 33;
+            this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar.TabIndex = 4;
             // 
             // label3
@@ -96,15 +98,16 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 9);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(12, 30);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(145, 13);
+            this.label5.Size = new System.Drawing.Size(214, 20);
             this.label5.TabIndex = 7;
             this.label5.Text = "Bem Vindo ao PocketQueue!";
             // 
             // loginButton
             // 
-            this.loginButton.Location = new System.Drawing.Point(28, 134);
+            this.loginButton.Location = new System.Drawing.Point(26, 134);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(181, 23);
             this.loginButton.TabIndex = 2;
@@ -123,6 +126,7 @@
             // 
             // LoginScreen
             // 
+            this.AcceptButton = this.loginButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(233, 241);
@@ -135,8 +139,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.loginTextBox);
+            this.MaximizeBox = false;
             this.Name = "LoginScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LoginScreen_FormClosed);
             this.Load += new System.EventHandler(this.LoginScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
