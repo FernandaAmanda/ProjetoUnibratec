@@ -27,6 +27,7 @@ C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQue
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
+<<<<<<< HEAD
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe.config
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
@@ -36,3 +37,15 @@ C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabaseP
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.xml
 C:\Users\Carlos Henrique\Desktop\Projeto Unibratec - LOCAL\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+=======
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe.config
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.dll
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.dll
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.xml
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache
+>>>>>>> 9eef9d5fc151e7ff4554ceaf9396a6877c33d9bd

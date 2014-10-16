@@ -53,11 +53,12 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -68,6 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FUNDO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FUNDO.Designer.cs">
+      <DependentUpon>FUNDO.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaCadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +101,15 @@
     <Compile Include="TelaGerente.Designer.cs">
       <DependentUpon>TelaGerente.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaRecepcionista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaRecepcionista.Designer.cs">
+      <DependentUpon>TelaRecepcionista.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FUNDO.resx">
+      <DependentUpon>FUNDO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaCadastroUsuario.resx">
       <DependentUpon>TelaCadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,12 +124,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TelaConsulta.resx">
       <DependentUpon>TelaConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaGerente.resx">
       <DependentUpon>TelaGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaRecepcionista.resx">
+      <DependentUpon>TelaRecepcionista.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -127,7 +147,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -154,6 +176,9 @@
       <Project>{7e5e3c6f-958b-486c-b838-fdd50d24fe46}</Project>
       <Name>DatabasePocketQueue</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoPocketqueue2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

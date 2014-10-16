@@ -15,8 +15,9 @@ namespace PocketQueue
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginScreen());
+            Application.SetCompatibleTextRenderingDefault(true);
+            Application.Run(new FUNDO());
+            
         }
     }
 }

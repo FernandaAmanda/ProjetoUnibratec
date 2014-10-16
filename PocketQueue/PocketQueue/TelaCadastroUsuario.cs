@@ -16,32 +16,7 @@ namespace PocketQueue
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TelaCadastroUsuario_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -49,9 +24,7 @@ namespace PocketQueue
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LoginScreen login = new LoginScreen(); /*instanciando a classe LoginScreen*/
-            MessageBox.Show("Cadastrado realizado com sucesso.");/* Mostra uma caixa de dialogo mensagem ("Cadastrado realizado com sucesso.")*/
-            this.Close();
+
 
         }
     }

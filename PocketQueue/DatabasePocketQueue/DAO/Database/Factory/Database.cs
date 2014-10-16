@@ -10,7 +10,7 @@ namespace DatabasePocketQueue.DAO.Database.Factory
     static class Database
     {
 
-        private static string ConnectionString = "Server=192.168.25.50;Database=PocketQueue;User Id=SQLAdmin;Password=123456;";
+        private static string ConnectionString = "Server=J-PC;Database=PocketQueue;User Id=sa;Password=sa;";
         private static DbContext DatabaseContext = new DbContext(ConnectionString);
 
         public static bool OverrideExistingDatabase()
