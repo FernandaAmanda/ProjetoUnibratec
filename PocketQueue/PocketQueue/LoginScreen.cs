@@ -51,8 +51,6 @@ namespace PocketQueue
             LoginScreen login = new LoginScreen(); /*instanciando a classe LoginScreen */
             login.Close(); /*fecha o login */
             tela.ShowDialog(); /*vai mostra a tela(TelaCadastroUsuario) */
-            
-
         }
     }
 }

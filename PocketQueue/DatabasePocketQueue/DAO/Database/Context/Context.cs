@@ -19,6 +19,7 @@ namespace DatabasePocketQueue.DAO.Database.Context
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Configurations.Add(new EstadoSenhaMap());
             modelBuilder.Configurations.Add(new UsuarioMap());
             modelBuilder.Configurations.Add(new TipoUsuarioMap());
             modelBuilder.Configurations.Add(new TipoSenhaMap());
@@ -28,6 +29,7 @@ namespace DatabasePocketQueue.DAO.Database.Context
         //Senha
         public DbSet<Senha> Senha { get; set; }
         public DbSet<TipoSenha> TipoSenha { get; set; }
+        public DbSet<EstadoSenha> EstadoSenha { get; set; }
 
         //Usuario
         public DbSet<TipoUsuario> TipoUsuario { get; set; }

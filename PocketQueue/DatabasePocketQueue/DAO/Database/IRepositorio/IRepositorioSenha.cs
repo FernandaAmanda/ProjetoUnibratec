@@ -13,5 +13,6 @@ namespace DatabasePocketQueue.DAO.Database.IRepositorio
         bool InserirSenha(Senha senha);
         List<Senha> ListarSenha(Senha senha);
         bool AlterarSenha(Senha senha);
+        Senha ChamarSenha();
     }
 }

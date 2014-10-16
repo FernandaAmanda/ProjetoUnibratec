@@ -67,3 +67,6 @@ C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\Poc
 C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
 C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
 C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
+C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
+C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
+C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
