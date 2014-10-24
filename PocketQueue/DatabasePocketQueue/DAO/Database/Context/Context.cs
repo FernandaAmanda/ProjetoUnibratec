@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
 using DatabasePocketQueue.DAO.Entidades;
 using DatabasePocketQueue.DAO.Database.Context.ContextMaps;
 
@@ -15,12 +18,22 @@ namespace DatabasePocketQueue.DAO.Database.Context
     /// <summary>
     /// Classe que será referenciada as demais classes que se tornarão tabelas.
     /// </summary>
+<<<<<<< HEAD
     public class Context : DbContext
     {
         public Context() : base(@"Server=.\SQLEXPRESS;Database=PocketQueue;Trusted_Connection=yes;") { }//aqui voce coloca o endereço do seu banco de dados
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+=======
+    class Context : DbContext
+    {
+        public Context() : base("PocketQueue") { }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new EstadoSenhaMap());
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
             modelBuilder.Configurations.Add(new UsuarioMap());
             modelBuilder.Configurations.Add(new TipoUsuarioMap());
             modelBuilder.Configurations.Add(new TipoSenhaMap());
@@ -30,6 +43,10 @@ namespace DatabasePocketQueue.DAO.Database.Context
         //Senha
         public DbSet<Senha> Senha { get; set; }
         public DbSet<TipoSenha> TipoSenha { get; set; }
+<<<<<<< HEAD
+=======
+        public DbSet<EstadoSenha> EstadoSenha { get; set; }
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
 
         //Usuario
         public DbSet<TipoUsuario> TipoUsuario { get; set; }

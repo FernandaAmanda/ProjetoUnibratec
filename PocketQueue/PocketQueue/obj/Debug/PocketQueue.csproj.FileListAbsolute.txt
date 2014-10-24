@@ -67,6 +67,7 @@ C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\Poc
 C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
 C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
 C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
+<<<<<<< HEAD
 C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
 C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
 C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
@@ -91,3 +92,32 @@ C:\Users\Casas Bahia\Desktop\Victor\ProjetoUnibratec-master\PocketQueue\PocketQu
 C:\GitHub\ProjetoUnibratec-master\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
 C:\GitHub\ProjetoUnibratec-master\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
 C:\GitHub\ProjetoUnibratec-master\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+=======
+<<<<<<< HEAD
+C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
+C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
+C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
+=======
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.FUNDO.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaRecepcionista.resources
+>>>>>>> 9eef9d5fc151e7ff4554ceaf9396a6877c33d9bd
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7

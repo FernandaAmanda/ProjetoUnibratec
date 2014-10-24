@@ -8,10 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 namespace PocketQueue.Properties
 {
 
 
+=======
+namespace PocketQueue.Properties {
+    using System;
+    
+    
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,6 +29,7 @@ namespace PocketQueue.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+<<<<<<< HEAD
     internal class Resources
     {
 
@@ -34,28 +42,51 @@ namespace PocketQueue.Properties
         {
         }
 
+=======
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+<<<<<<< HEAD
         internal static global::System.Resources.ResourceManager ResourceManager
         {
             get
             {
                 if ((resourceMan == null))
                 {
+=======
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PocketQueue.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+<<<<<<< HEAD
         internal static global::System.Globalization.CultureInfo Culture
         {
             get
@@ -67,5 +98,25 @@ namespace PocketQueue.Properties
                 resourceCulture = value;
             }
         }
+=======
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LogoPocketqueue2 {
+            get {
+                object obj = ResourceManager.GetObject("LogoPocketqueue2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     }
 }

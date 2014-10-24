@@ -51,5 +51,17 @@ namespace DatabasePocketQueue.DAO.Database.Repositorio
                 return true;
             }
         }
+<<<<<<< HEAD
+=======
+        public Senha ChamarSenha()
+        {
+            using (var db = new Context.Context())
+            {
+                return db.Senha.Include(s => s.EstadoSenha).
+                    OrderByDescending(s => s.IDSenha).
+                    FirstOrDefault(s => s.EstadoSenha.IDEstado == 1);
+            }
+        }
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     }
 }

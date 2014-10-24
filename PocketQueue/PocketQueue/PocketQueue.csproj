@@ -53,11 +53,20 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+=======
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -68,6 +77,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="FUNDO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FUNDO.Designer.cs">
+      <DependentUpon>FUNDO.cs</DependentUpon>
+    </Compile>
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <Compile Include="TelaCadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +112,18 @@
     <Compile Include="TelaGerente.Designer.cs">
       <DependentUpon>TelaGerente.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="TelaRecepcionista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaRecepcionista.Designer.cs">
+      <DependentUpon>TelaRecepcionista.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FUNDO.resx">
+      <DependentUpon>FUNDO.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <EmbeddedResource Include="TelaCadastroUsuario.resx">
       <DependentUpon>TelaCadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +138,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+<<<<<<< HEAD
+=======
+      <DesignTime>True</DesignTime>
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     </Compile>
     <EmbeddedResource Include="TelaConsulta.resx">
       <DependentUpon>TelaConsulta.cs</DependentUpon>
@@ -115,6 +149,12 @@
     <EmbeddedResource Include="TelaGerente.resx">
       <DependentUpon>TelaGerente.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="TelaRecepcionista.resx">
+      <DependentUpon>TelaRecepcionista.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -127,7 +167,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Properties\App.config" />
+=======
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -155,6 +201,12 @@
       <Name>DatabasePocketQueue</Name>
     </ProjectReference>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <None Include="Resources\LogoPocketqueue2.jpg" />
+  </ItemGroup>
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

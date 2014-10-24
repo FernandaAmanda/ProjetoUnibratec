@@ -19,6 +19,7 @@ namespace PocketQueue
 
         private void inserirusuariobutton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             this.Hide();
             TelaCadastroUsuario TelaCadastroUsuario = new TelaCadastroUsuario();
             TelaCadastroUsuario.ShowDialog();
@@ -36,11 +37,45 @@ namespace PocketQueue
             TelaConsulta TelaConsulta = new TelaConsulta();
             TelaConsulta.ShowDialog();
             this.Show();
+=======
+            try
+            {
+                TelaCadastroUsuario TelaCadastroUsuario = new TelaCadastroUsuario();
+                TelaCadastroUsuario.ShowDialog();
+            }
+            finally{
+                this.Show();
+            }
+            
+        }
+
+
+        private void consultarusuariobutton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                TelaConsulta TelaConsulta = new TelaConsulta();
+                TelaConsulta.ShowDialog();
+            }
+            finally
+            {
+                this.Show();
+            }
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         }
 
         private void fechargerentebutton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             this.Close();
+=======
+            //this.Close();
+        }
+
+        private void TelaGerente_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         }
     }
 }

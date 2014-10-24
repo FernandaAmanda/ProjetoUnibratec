@@ -48,21 +48,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="DAO\Database\Context\ContextMaps\EstadoSenhaMap.cs" />
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <Compile Include="DAO\Database\Context\ContextMaps\SenhaMap.cs" />
     <Compile Include="DAO\Database\Context\ContextMaps\TipoSenhaMap.cs" />
     <Compile Include="DAO\Database\Context\ContextMaps\TipoUsuarioMap.cs" />
     <Compile Include="DAO\Database\Context\ContextMaps\UsuarioMap.cs" />
     <Compile Include="DAO\Database\Factory\Database.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="DAO\Database\IRepositorio\IRepositorioEstadoSenha.cs" />
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <Compile Include="DAO\Database\IRepositorio\IRepositorioSenha.cs" />
     <Compile Include="DAO\Database\IRepositorio\IRepositorioTipoSenha.cs" />
     <Compile Include="DAO\Database\IRepositorio\IRepositorioTipoUsuario.cs" />
     <Compile Include="DAO\Database\IRepositorio\IRepositorioFuncionalidade.cs" />
     <Compile Include="DAO\Database\IRepositorio\IRepositorioUsuario.cs" />
+<<<<<<< HEAD
     <Compile Include="DAO\Repositorio\RepositorioFuncionalidade.cs" />
     <Compile Include="DAO\Repositorio\RepositorioSenha.cs" />
     <Compile Include="DAO\Repositorio\RepositorioTipoSenha.cs" />
     <Compile Include="DAO\Repositorio\RepositorioTipoUsuario.cs" />
     <Compile Include="DAO\Repositorio\RepositorioUsuario.cs" />
+=======
+    <Compile Include="DAO\Database\Repositorio\RepositorioEstadoSenha.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioFuncionalidade.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioSenha.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioTipoSenha.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioTipoUsuario.cs" />
+    <Compile Include="DAO\Database\Repositorio\RepositorioUsuario.cs" />
+    <Compile Include="DAO\Entidades\EstadoSenha.cs" />
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <Compile Include="DAO\Entidades\Funcionalidade.cs" />
     <Compile Include="DAO\Database\Context\Context.cs" />
     <Compile Include="DAO\Entidades\Senha.cs" />
@@ -73,9 +91,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+=======
+    <None Include="App.config" />
+>>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
