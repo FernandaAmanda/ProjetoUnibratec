@@ -69,7 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RepositorioUsuarioLogin.cs" />
+    <Compile Include="LoginScreenValidacao.cs" />
     <Compile Include="FUNDO.cs">
       <SubType>Form</SubType>
     </Compile>

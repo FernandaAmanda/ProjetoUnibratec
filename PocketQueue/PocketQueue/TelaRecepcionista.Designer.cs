@@ -39,6 +39,7 @@
             // 
             this.UltimaSenhaChamada_textBox.BackColor = System.Drawing.SystemColors.Control;
             this.UltimaSenhaChamada_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.UltimaSenhaChamada_textBox.Enabled = false;
             this.UltimaSenhaChamada_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UltimaSenhaChamada_textBox.Location = new System.Drawing.Point(129, 218);
             this.UltimaSenhaChamada_textBox.Name = "UltimaSenhaChamada_textBox";
@@ -51,6 +52,7 @@
             // 
             this.UltimaSenhaGerada_textBox.BackColor = System.Drawing.SystemColors.Control;
             this.UltimaSenhaGerada_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.UltimaSenhaGerada_textBox.Enabled = false;
             this.UltimaSenhaGerada_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UltimaSenhaGerada_textBox.Location = new System.Drawing.Point(47, 61);
             this.UltimaSenhaGerada_textBox.Name = "UltimaSenhaGerada_textBox";

@@ -17,3 +17,4 @@ C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\bin\Debug\En
 C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache
 C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.exe
 C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.pdb
+F:\Git\ProjetoUnibratec\PocketQueue\DatabasePocketQueue\obj\Debug\DatabasePocketQueue.csprojResolveAssemblyReference.cache

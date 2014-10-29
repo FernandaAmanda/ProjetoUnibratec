@@ -30,7 +30,7 @@ namespace PocketQueue
         private void loginButton_Click(object sender, EventArgs e)
         {
             progressBar.PerformStep();
-            RepositorioUsuarioLogin usuario = new RepositorioUsuarioLogin();
+            LoginScreenValidacao usuario = new LoginScreenValidacao();
             string login = usuario.Login(loginTextBox.Text.ToString(), passwordTextBox.Text.ToString());
             string tipousuario = usuario.TipoUsuario(login);
             progressBar.PerformStep();

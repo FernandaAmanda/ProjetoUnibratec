@@ -9,29 +9,13 @@ using System.Windows.Forms;
 
 namespace PocketQueue
 {
-    public class RepositorioUsuarioLogin
+    public class LoginScreenValidacao
     {
         protected SqlConnection conexao = new SqlConnection("Server=JEDILSON-PC;Database=PocketQueue;User Id=sa;Password=sa;");
         public string Login(string login, string password)
         {
             string ID = null;
             SqlCommand cmd = new SqlCommand("SELECT IDTipoUsuario FROM Usuarios WHERE Login='" + login + "' and Senha='" + password + "';", conexao);
-            try
-            {
-                conexao.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro " + ex.Message);
-                throw;
-            }
-
-            finally
-            {
-                conexao.Close();
-            }
             try
             {
                 conexao.Open();
@@ -44,8 +28,8 @@ namespace PocketQueue
             }
             catch (Exception ex)
             {
-                //MessageBox.Show("Erro " + ex.Message);
-                //throw;
+                MessageBox.Show("Ocorreu um Erro: " + ex.Message);
+                throw;
             }
             finally
             {
@@ -72,8 +56,8 @@ namespace PocketQueue
             }
             catch (Exception ex)
             {
-                //MessageBox.Show("Erro " + ex.Message);
-                //throw;
+                MessageBox.Show("Ocorreu um Erro: " + ex.Message);
+                throw;
             }
             finally
             {
