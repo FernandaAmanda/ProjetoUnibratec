@@ -1,9 +1,6 @@
 ﻿using DatabasePocketQueue.DAO.Database.Context;
 using DatabasePocketQueue.DAO.Database.Factory;
-<<<<<<< HEAD
-=======
 using DatabasePocketQueue.DAO.Database.IRepositorio;
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
 using DatabasePocketQueue.DAO.Database.Repositorio;
 using DatabasePocketQueue.DAO.Entidades;
 using System;
@@ -18,13 +15,7 @@ namespace DatabasePocketQueue
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-            Console.WriteLine("Overriding Existing Database...");
-            Console.WriteLine((Database.OverrideExistingDatabase() ? "Success!" : "Failure..."));
 
-
-=======
-<<<<<<< HEAD
             bool debug = true;
 
             if (debug)
@@ -33,25 +24,11 @@ namespace DatabasePocketQueue
                 Console.WriteLine((Database.OverrideExistingDatabase() ? "Success!" : "Failure..."));
 
                 #region Povoamento Básico das Tabelas
-=======
+
             Console.WriteLine("Overriding Existing Database...");
             Console.WriteLine((Database.OverrideExistingDatabase() ? "Success!" : "Failure..."));
-            #region Teste Usuario
-            //Teste Usuario
-            RepositorioUsuario R = new RepositorioUsuario();
-            RepositorioTipoUsuario RT = new RepositorioTipoUsuario();
             
-            TipoUsuario AA = new TipoUsuario("A");
-            RT.InserirTipoUsuario(AA);
-            Usuario A = new Usuario("Gerente", "A", "A", "A", "A", "A", "A", "A", "A", "A", AA.IDTipoUsuario);
-            R.InserirUsuario(A);
-
-            TipoUsuario BB = new TipoUsuario("B");
-            RT.InserirTipoUsuario(BB);
-            Usuario B = new Usuario("Recepcionista", "B", "B", "B", "B", "B", "B", "B", "B", "B", BB.IDTipoUsuario);
-            R.InserirUsuario(B);
-            //EndTesteUsuario
-            #endregion
+           
 
             /*TipoSenha TS = new TipoSenha();
             RepositorioTipoSenha rs = new RepositorioTipoSenha();
@@ -64,7 +41,6 @@ namespace DatabasePocketQueue
 
             List<Usuario> u = R.ListarUsuariosCompleto();
             u.Add(null);*/
->>>>>>> 9eef9d5fc151e7ff4554ceaf9396a6877c33d9bd
 
                 //TipoUsuario
                 TipoUsuario gerente, atendente, recepcionista, administrador;
@@ -112,7 +88,6 @@ namespace DatabasePocketQueue
                 //EndTesteUsuario
                 #endregion
             }
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         }
     }
 }

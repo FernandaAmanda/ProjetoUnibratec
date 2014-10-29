@@ -20,12 +20,9 @@ namespace DatabasePocketQueue.DAO.Database.Context.ContextMaps
 
             //Chave Estrangeira de Usuario
             HasRequired(s => s.Usuario);
-<<<<<<< HEAD
-=======
 
             //Chave Estrangeira
             HasRequired(s => s.EstadoSenha);
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         }
     }
 }

@@ -17,12 +17,6 @@ namespace DatabasePocketQueue.DAO.Entidades
         {
             this.Criacao = DateTime.Now;
         }
-<<<<<<< HEAD
-        public Senha(int idTipoSenha)
-        {
-            this.IDTipoSenha = idTipoSenha;
-            this.Criacao = DateTime.Now;
-=======
         public Senha(int idTipoSenha, int guiche)
         {
             this.IDTipoSenha = idTipoSenha;
@@ -30,7 +24,6 @@ namespace DatabasePocketQueue.DAO.Entidades
             this.Guiche = guiche;
             this.IDEstadoSenha = 1;
             this.EstadoSenha = new EstadoSenha("Nova");
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
         }
 
         /// <summary>
@@ -65,8 +58,6 @@ namespace DatabasePocketQueue.DAO.Entidades
         /// ID do usuário.
         /// </summary>
         public int IDUsuario { get; set; }
-<<<<<<< HEAD
-=======
         /// <summary>
         /// Guiche onde a senha foi atendida
         /// </summary>
@@ -79,7 +70,6 @@ namespace DatabasePocketQueue.DAO.Entidades
         /// O estado da senha.
         /// </summary>
         public EstadoSenha EstadoSenha { get; set; }
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
 
 
     }

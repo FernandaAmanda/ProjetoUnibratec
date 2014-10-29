@@ -1,113 +1,13 @@
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Carlos Henrique\Documents\Visual Studio 2013\Projects\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
-C:\Users\Helnando\Desktop\ProjetoUnibratec_ferrado\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
-C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Helnando\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
-C:\Users\Bruno Pereira\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
-<<<<<<< HEAD
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
-C:\Users\Casas Bahia\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
-C:\Users\Casas Bahia\Desktop\Victor\ProjetoUnibratec-master\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\Users\Casas Bahia\Desktop\Victor\ProjetoUnibratec-master\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\Users\Casas Bahia\Desktop\Victor\ProjetoUnibratec-master\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-C:\GitHub\ProjetoUnibratec-master\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-C:\GitHub\ProjetoUnibratec-master\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-C:\GitHub\ProjetoUnibratec-master\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
-=======
-<<<<<<< HEAD
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
-C:\Users\Carlos Henrique\Desktop\Projeto Unibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
-=======
-F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
-F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
-F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.FUNDO.resources
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaRecepcionista.resources
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
@@ -117,7 +17,26 @@ F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\Microsoft.QualityTools
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
 F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
-F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.FUNDO.resources
-F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaRecepcionista.resources
->>>>>>> 9eef9d5fc151e7ff4554ceaf9396a6877c33d9bd
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
+F:\Git\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe.config
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.exe
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.pdb
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.exe
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\PocketQueue.pdb
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.exe
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.dll
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\DatabasePocketQueue.pdb
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.xml
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csprojResolveAssemblyReference.cache
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.FUNDO.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaCadastroUsuario.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.LoginScreen.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.Properties.Resources.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaConsulta.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaGerente.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.TelaRecepcionista.resources
+C:\Users\J\Desktop\ProjetoUnibratec\PocketQueue\PocketQueue\obj\Debug\PocketQueue.csproj.GenerateResource.Cache

@@ -64,12 +64,8 @@ namespace DatabasePocketQueue.DAO.Database.Repositorio
         {
             using (var db = new Context.Context())
             {
-<<<<<<< HEAD
-                return db.Usuario.Include(u => u.TipoUsuario).Include(u => u.Senhas.Select(s => s.TipoSenha)).
-=======
                 return db.Usuario.Include(u => u.TipoUsuario).
                     Include(u => u.Senhas.Select(s => s.TipoSenha)).
->>>>>>> 5f0932a4f32660179c6da99316c64471225192d7
                     Include(u => u.Senhas).ToList();
             }
         }
