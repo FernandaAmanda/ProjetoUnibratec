@@ -72,8 +72,8 @@ namespace PocketQueue
                     try
                     {
                         this.Hide();
-                        //TelaAtendente Atendente = new TelaAtendente();
-                        //Atendente.ShowDialog();
+                        TelaAtendente Atendente = new TelaAtendente();
+                        Atendente.ShowDialog();
                     }
                     finally
                     {
