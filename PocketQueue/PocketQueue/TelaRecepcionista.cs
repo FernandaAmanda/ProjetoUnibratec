@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DatabasePocketQueue.DAO.Database.IRepositorio;
+using DatabasePocketQueue.DAO.Database.Repositorio;
+using DatabasePocketQueue.DAO.Entidades;
+using System;
 using System.Windows.Forms;
 
 namespace PocketQueue
@@ -17,9 +13,44 @@ namespace PocketQueue
             InitializeComponent();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void SenhaNormal_button_Click(object sender, EventArgs e)
         {
 
+            var senha = new Senha();
+            var tipoSenha = new TipoSenha();
+            IRepositorioSenha rep = new RepositorioSenha();
+
+            senha.Guiche = 0;
+            senha.IDEstadoSenha = 1;
+            senha.EstadoSenha = new EstadoSenha("Nova");
+            senha.Atendido = DateTime.Now;
+            senha.IDTipoSenha = tipoSenha.IDTipoSenha;
+            senha.TipoSenha = tipoSenha;
+            senha.IDUsuario = 1;
+            tipoSenha.IDTipoSenha = 1;
+
+            rep.InserirSenha(senha);
+            
         }
+
+        private void SenhaPreferencial_button_Click(object sender, EventArgs e)
+        {
+            var senha = new Senha();
+            var tipoSenha = new TipoSenha();
+            IRepositorioSenha rep = new RepositorioSenha();
+
+            senha.Guiche = 0;
+            senha.IDEstadoSenha = 1;
+            senha.EstadoSenha = new EstadoSenha("Nova");
+            senha.Atendido = DateTime.Now;
+            senha.IDTipoSenha = tipoSenha.IDTipoSenha;
+            senha.TipoSenha = tipoSenha;
+            senha.IDUsuario = 1;
+            tipoSenha.IDTipoSenha = 1;
+
+            rep.InserirSenha(senha);
+        }
+
+
     }
 }
