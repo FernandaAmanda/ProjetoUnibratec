@@ -1,13 +1,8 @@
-﻿using DatabasePocketQueue.DAO.Database.Context;
-using DatabasePocketQueue.DAO.Database.Factory;
+﻿using DatabasePocketQueue.DAO.Database.Factory;
 using DatabasePocketQueue.DAO.Database.IRepositorio;
 using DatabasePocketQueue.DAO.Database.Repositorio;
 using DatabasePocketQueue.DAO.Entidades;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DatabasePocketQueue
 {
@@ -88,6 +83,19 @@ namespace DatabasePocketQueue
                 //EndTesteUsuario
                 #endregion
             }
+
+            IRepositorioSenha rep = new RepositorioSenha();
+            Senha senha = new Senha();
+            senha.Guiche = 0;
+            senha.IDEstadoSenha = 1;
+            senha.EstadoSenha = new EstadoSenha("Nova");
+            senha.Atendido = DateTime.Now;
+            TipoSenha tipoSenha = new TipoSenha();
+            tipoSenha.IDTipoSenha = 1;
+            senha.IDTipoSenha = tipoSenha.IDTipoSenha;
+            senha.TipoSenha = tipoSenha;
+            senha.IDUsuario = 1;
+            rep.InserirSenha(senha);
         }
     }
 }

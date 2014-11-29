@@ -7,8 +7,8 @@ namespace PocketQueue
 {
     public partial class TelaGerente : Form
     {
-        Stopwatch cronometro = new Stopwatch();
-        private string guiche;
+        readonly Stopwatch _cronometro = new Stopwatch();
+        private string _guiche;
         public TelaGerente()
         {
             InitializeComponent();
@@ -17,25 +17,25 @@ namespace PocketQueue
         private void TelaGerente_Load(object sender, EventArgs e)
         {
             do{
-                guiche = Microsoft.VisualBasic.Interaction.InputBox("Qual o seu Guichê?", "Insira o numero doGuichê Atual");
-                if (!Information.IsNumeric(guiche))
+                _guiche = Interaction.InputBox("Qual o seu Guichê?", "Insira o numero doGuichê Atual");
+                if (!Information.IsNumeric(_guiche))
                 {
                    MessageBox.Show("Insira um numero para o Guichê");
                 }
             }
-            while (!Information.IsNumeric(guiche));
-            Guichelabel.Text = guiche;
+            while (!Information.IsNumeric(_guiche));
+            Guichelabel.Text = _guiche;
         }
 
         private void inserirusuariobutton_Click(object sender, EventArgs e)
         {
             try
             {
-                TelaCadastroUsuario TelaCadastroUsuario = new TelaCadastroUsuario();
-                TelaCadastroUsuario.ShowDialog();
+                var telaCadastroUsuario = new TelaCadastroUsuario();
+                telaCadastroUsuario.ShowDialog();
             }
             finally{
-                this.Show();
+                Show();
             }
             
         }
@@ -45,26 +45,26 @@ namespace PocketQueue
         {
             try
             {
-                TelaConsulta TelaConsulta = new TelaConsulta();
-                TelaConsulta.ShowDialog();
+                var telaConsulta = new TelaConsulta();
+                telaConsulta.ShowDialog();
             }
             finally
             {
-                this.Show();
+                Show();
             }
         }
 
         private void fechargerentebutton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
         private void ChamarSenha_Button_Click(object sender, EventArgs e)
         {
             FinalizarAtendimento_Button.Enabled = true;
             ChamarSenha_Button.Enabled = false;
 
-            cronometro.Reset();
-            cronometro.Start();
+            _cronometro.Reset();
+            _cronometro.Start();
 
         }
 
@@ -73,15 +73,15 @@ namespace PocketQueue
             ChamarSenha_Button.Enabled = true;
             FinalizarAtendimento_Button.Enabled = false;
 
-            cronometro.Stop();
+            _cronometro.Stop();
             TempoFinal_Label.Text = Cronometro_Label.Text;
-            cronometro.Reset();
+            _cronometro.Reset();
 
         }
 
         private void Cronometro_Timer_Tick(object sender, EventArgs e)
         {
-            Cronometro_Label.Text = String.Format("{0:00}:{1:00}:{2:00}:{3:00}", cronometro.Elapsed.Hours, cronometro.Elapsed.Minutes, cronometro.Elapsed.Seconds, cronometro.Elapsed.Milliseconds / 10);
+            Cronometro_Label.Text = String.Format("{0:00}:{1:00}:{2:00}:{3:00}", _cronometro.Elapsed.Hours, _cronometro.Elapsed.Minutes, _cronometro.Elapsed.Seconds, _cronometro.Elapsed.Milliseconds / 10);
         }
 
     }

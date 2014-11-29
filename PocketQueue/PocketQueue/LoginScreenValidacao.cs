@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PocketQueue
@@ -35,7 +31,7 @@ namespace PocketQueue
             {
                 conexao.Close();
             }
-
+            conexao.Close();
             return ID;
         }
 
@@ -63,7 +59,7 @@ namespace PocketQueue
             {
                 conexao.Close();
             }
-
+            conexao.Close();
             return Descricao;
         }
     }

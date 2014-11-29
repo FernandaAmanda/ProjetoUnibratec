@@ -1,18 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using System.Threading;
-using DatabasePocketQueue.DAO.Database.IRepositorio;
-using DatabasePocketQueue.DAO.Database.Repositorio;
-using DatabasePocketQueue.DAO.Entidades;
-using System.Data.SqlClient;
 
 namespace PocketQueue
 {

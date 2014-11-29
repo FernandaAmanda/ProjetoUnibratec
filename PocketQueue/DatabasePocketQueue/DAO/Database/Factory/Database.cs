@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DatabasePocketQueue.DAO.Database.Factory
 {
     static class Database
     {
 
-        private static string ConnectionString = "Server=J-PC;Database=PocketQueue;User Id=sa;Password=sa;";
+        private static string ConnectionString = "Server=localhost;Database=PocketQueue;User Id=sa;Password=sa;";
         private static DbContext DatabaseContext = new DbContext(ConnectionString);
 
         public static bool OverrideExistingDatabase()

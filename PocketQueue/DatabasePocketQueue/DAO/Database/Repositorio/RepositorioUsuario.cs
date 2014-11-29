@@ -1,12 +1,9 @@
-﻿using DatabasePocketQueue.DAO.Entidades;
-using System;
+﻿using DatabasePocketQueue.DAO.Database.IRepositorio;
+using DatabasePocketQueue.DAO.Entidades;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
-using DatabasePocketQueue.DAO.Database.IRepositorio;
 
 namespace DatabasePocketQueue.DAO.Database.Repositorio
 {

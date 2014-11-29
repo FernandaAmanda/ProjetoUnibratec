@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
+﻿using DatabasePocketQueue.DAO.Database.Context.ContextMaps;
 using DatabasePocketQueue.DAO.Entidades;
-using DatabasePocketQueue.DAO.Database.Context.ContextMaps;
+using System.Data.Entity;
 
 
 namespace DatabasePocketQueue.DAO.Database.Context
