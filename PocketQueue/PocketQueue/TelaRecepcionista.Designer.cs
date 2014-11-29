@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             this.UltimaSenhaChamada_textBox = new System.Windows.Forms.TextBox();
-            this.UltimaSenhaGerada_textBox = new System.Windows.Forms.TextBox();
+            this.UltimaSenhaGeradaNormal_textBox = new System.Windows.Forms.TextBox();
             this.ultimasenhachamadalabel = new System.Windows.Forms.Label();
             this.ultimasenhageradalabel = new System.Windows.Forms.Label();
             this.SenhaNormal_button = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SenhaPreferencial_button = new System.Windows.Forms.Button();
+            this.UltimaSenhaGeradaPreferencial_textBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // UltimaSenhaChamada_textBox
@@ -49,25 +50,21 @@
             this.UltimaSenhaChamada_textBox.Name = "UltimaSenhaChamada_textBox";
             this.UltimaSenhaChamada_textBox.ReadOnly = true;
             this.UltimaSenhaChamada_textBox.Size = new System.Drawing.Size(174, 80);
-            this.UltimaSenhaChamada_textBox.Location = new System.Drawing.Point(47, 218);
-            this.UltimaSenhaChamada_textBox.Name = "UltimaSenhaChamada_textBox";
-            this.UltimaSenhaChamada_textBox.ReadOnly = true;
-            this.UltimaSenhaChamada_textBox.Size = new System.Drawing.Size(94, 80);
             this.UltimaSenhaChamada_textBox.TabIndex = 47;
             this.UltimaSenhaChamada_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // UltimaSenhaGerada_textBox
+            // UltimaSenhaGeradaNormal_textBox
             // 
-            this.UltimaSenhaGerada_textBox.BackColor = System.Drawing.SystemColors.Control;
-            this.UltimaSenhaGerada_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.UltimaSenhaGerada_textBox.Enabled = false;
-            this.UltimaSenhaGerada_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UltimaSenhaGerada_textBox.Location = new System.Drawing.Point(47, 61);
-            this.UltimaSenhaGerada_textBox.Name = "UltimaSenhaGerada_textBox";
-            this.UltimaSenhaGerada_textBox.ReadOnly = true;
-            this.UltimaSenhaGerada_textBox.Size = new System.Drawing.Size(346, 116);
-            this.UltimaSenhaGerada_textBox.TabIndex = 46;
-            this.UltimaSenhaGerada_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.UltimaSenhaGeradaNormal_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.UltimaSenhaGeradaNormal_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.UltimaSenhaGeradaNormal_textBox.Enabled = false;
+            this.UltimaSenhaGeradaNormal_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UltimaSenhaGeradaNormal_textBox.Location = new System.Drawing.Point(36, 85);
+            this.UltimaSenhaGeradaNormal_textBox.Name = "UltimaSenhaGeradaNormal_textBox";
+            this.UltimaSenhaGeradaNormal_textBox.ReadOnly = true;
+            this.UltimaSenhaGeradaNormal_textBox.Size = new System.Drawing.Size(156, 80);
+            this.UltimaSenhaGeradaNormal_textBox.TabIndex = 46;
+            this.UltimaSenhaGeradaNormal_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ultimasenhachamadalabel
             // 
@@ -95,36 +92,10 @@
             this.SenhaNormal_button.Location = new System.Drawing.Point(64, 338);
             this.SenhaNormal_button.Name = "SenhaNormal_button";
             this.SenhaNormal_button.Size = new System.Drawing.Size(128, 43);
-            this.SenhaNormal_button.TabIndex = 48;
+            this.SenhaNormal_button.TabIndex = 1;
             this.SenhaNormal_button.Text = "Normal";
             this.SenhaNormal_button.UseVisualStyleBackColor = true;
             this.SenhaNormal_button.Click += new System.EventHandler(this.SenhaNormal_button_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(299, 218);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(94, 80);
-            this.textBox2.TabIndex = 47;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(172, 218);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(94, 80);
-            this.textBox1.TabIndex = 47;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -142,23 +113,55 @@
             this.SenhaPreferencial_button.Location = new System.Drawing.Point(245, 338);
             this.SenhaPreferencial_button.Name = "SenhaPreferencial_button";
             this.SenhaPreferencial_button.Size = new System.Drawing.Size(128, 43);
-            this.SenhaPreferencial_button.TabIndex = 48;
+            this.SenhaPreferencial_button.TabIndex = 2;
             this.SenhaPreferencial_button.Text = "Preferencial";
             this.SenhaPreferencial_button.UseVisualStyleBackColor = true;
             this.SenhaPreferencial_button.Click += new System.EventHandler(this.SenhaPreferencial_button_Click);
+            // 
+            // UltimaSenhaGeradaPreferencial_textBox
+            // 
+            this.UltimaSenhaGeradaPreferencial_textBox.BackColor = System.Drawing.SystemColors.Control;
+            this.UltimaSenhaGeradaPreferencial_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.UltimaSenhaGeradaPreferencial_textBox.Enabled = false;
+            this.UltimaSenhaGeradaPreferencial_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UltimaSenhaGeradaPreferencial_textBox.Location = new System.Drawing.Point(245, 85);
+            this.UltimaSenhaGeradaPreferencial_textBox.Name = "UltimaSenhaGeradaPreferencial_textBox";
+            this.UltimaSenhaGeradaPreferencial_textBox.ReadOnly = true;
+            this.UltimaSenhaGeradaPreferencial_textBox.Size = new System.Drawing.Size(156, 80);
+            this.UltimaSenhaGeradaPreferencial_textBox.TabIndex = 46;
+            this.UltimaSenhaGeradaPreferencial_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(33, 66);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.TabIndex = 50;
+            this.label2.Text = "Normal";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(338, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 51;
+            this.label3.Text = "Preferencial";
             // 
             // TelaRecepcionista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 411);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.SenhaPreferencial_button);
             this.Controls.Add(this.SenhaNormal_button);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.UltimaSenhaChamada_textBox);
-            this.Controls.Add(this.UltimaSenhaGerada_textBox);
+            this.Controls.Add(this.UltimaSenhaGeradaPreferencial_textBox);
+            this.Controls.Add(this.UltimaSenhaGeradaNormal_textBox);
             this.Controls.Add(this.ultimasenhachamadalabel);
             this.Controls.Add(this.ultimasenhageradalabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -173,14 +176,15 @@
         #endregion
 
         private System.Windows.Forms.TextBox UltimaSenhaChamada_textBox;
-        private System.Windows.Forms.TextBox UltimaSenhaGerada_textBox;
+        private System.Windows.Forms.TextBox UltimaSenhaGeradaNormal_textBox;
         private System.Windows.Forms.Label ultimasenhachamadalabel;
         private System.Windows.Forms.Label ultimasenhageradalabel;
         private System.Windows.Forms.Button SenhaNormal_button;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button SenhaPreferencial_button;
+        private System.Windows.Forms.TextBox UltimaSenhaGeradaPreferencial_textBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
 
 
 

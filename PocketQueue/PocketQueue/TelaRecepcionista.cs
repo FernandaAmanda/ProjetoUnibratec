@@ -28,16 +28,13 @@ namespace PocketQueue
 
 
             rep.InserirSenha(senha);
-            UltimaSenhaGerada_textBox.Text = "N" + senha.IDSenha.ToString();
-            int senhachamada = senha.IDSenha - 1;
-            UltimaSenhaChamada_textBox.Text = "N" + senhachamada.ToString();
-            
+            UltimaSenhaGeradaNormal_textBox.Text = senha.IDSenha.ToString();
         }
 
         private void SenhaPreferencial_button_Click(object sender, EventArgs e)
         {
             IRepositorioSenha rep = new RepositorioSenha();
-            var estsenha = new RepositorioEstadoSenha().BuscarEstadoSenha(1);
+            var estsenha = new RepositorioEstadoSenha().BuscarEstadoSenha(1); 
             var senha = new Senha
             {
                 Guiche = 0,
@@ -49,9 +46,7 @@ namespace PocketQueue
 
 
             rep.InserirSenha(senha);
-            UltimaSenhaGerada_textBox.Text = "P" + senha.IDSenha.ToString();
-            int senhachamada = senha.IDSenha - 1;
-            UltimaSenhaChamada_textBox.Text = "P" + senhachamada.ToString();
+            UltimaSenhaGeradaPreferencial_textBox.Text = senha.IDSenha.ToString();
         }
 
 
