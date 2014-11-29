@@ -1,4 +1,6 @@
-﻿using DatabasePocketQueue.DAO.Database.IRepositorio;
+﻿using System.Data.Entity;
+using System.Linq;
+using DatabasePocketQueue.DAO.Database.IRepositorio;
 using DatabasePocketQueue.DAO.Entidades;
 
 namespace DatabasePocketQueue.DAO.Database.Repositorio
@@ -14,6 +16,14 @@ namespace DatabasePocketQueue.DAO.Database.Repositorio
                 db.SaveChanges();
             }
             return true;
+        }
+        public EstadoSenha BuscarEstadoSenha(int idEstado)
+        {
+            using (var db = new Context.Context())
+            {
+                return db.EstadoSenha.FirstOrDefault(u => u.IDEstado == idEstado);
+
+            }
         }
     }
 }

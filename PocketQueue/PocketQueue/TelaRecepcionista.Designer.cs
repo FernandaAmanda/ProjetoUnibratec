@@ -33,6 +33,8 @@
             this.ultimasenhachamadalabel = new System.Windows.Forms.Label();
             this.ultimasenhageradalabel = new System.Windows.Forms.Label();
             this.SenhaNormal_button = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SenhaPreferencial_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -47,6 +49,10 @@
             this.UltimaSenhaChamada_textBox.Name = "UltimaSenhaChamada_textBox";
             this.UltimaSenhaChamada_textBox.ReadOnly = true;
             this.UltimaSenhaChamada_textBox.Size = new System.Drawing.Size(174, 80);
+            this.UltimaSenhaChamada_textBox.Location = new System.Drawing.Point(47, 218);
+            this.UltimaSenhaChamada_textBox.Name = "UltimaSenhaChamada_textBox";
+            this.UltimaSenhaChamada_textBox.ReadOnly = true;
+            this.UltimaSenhaChamada_textBox.Size = new System.Drawing.Size(94, 80);
             this.UltimaSenhaChamada_textBox.TabIndex = 47;
             this.UltimaSenhaChamada_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -94,6 +100,32 @@
             this.SenhaNormal_button.UseVisualStyleBackColor = true;
             this.SenhaNormal_button.Click += new System.EventHandler(this.SenhaNormal_button_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(299, 218);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(94, 80);
+            this.textBox2.TabIndex = 47;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(172, 218);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(94, 80);
+            this.textBox1.TabIndex = 47;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -123,6 +155,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.SenhaPreferencial_button);
             this.Controls.Add(this.SenhaNormal_button);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.UltimaSenhaChamada_textBox);
             this.Controls.Add(this.UltimaSenhaGerada_textBox);
             this.Controls.Add(this.ultimasenhachamadalabel);
@@ -143,6 +177,8 @@
         private System.Windows.Forms.Label ultimasenhachamadalabel;
         private System.Windows.Forms.Label ultimasenhageradalabel;
         private System.Windows.Forms.Button SenhaNormal_button;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button SenhaPreferencial_button;
 

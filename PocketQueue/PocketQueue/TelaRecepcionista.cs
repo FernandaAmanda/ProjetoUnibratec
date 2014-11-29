@@ -15,38 +15,34 @@ namespace PocketQueue
 
         private void SenhaNormal_button_Click(object sender, EventArgs e)
         {
-
-            var senha = new Senha();
-            var tipoSenha = new TipoSenha();
             IRepositorioSenha rep = new RepositorioSenha();
+            var estsenha = new RepositorioEstadoSenha().BuscarEstadoSenha(1);
+            var senha = new Senha
+            {
+                Guiche = 0, //Tela de Recepção
+                EstadoSenha = estsenha, //Senha Nova
+                IDEstadoSenha = estsenha.IDEstado, //Id de Senha Nova
+                IDTipoSenha = 1, //Senha Normal
+                IDUsuario = 1 //Usuario Recepcionista
+            };
 
-            senha.Guiche = 0;
-            senha.IDEstadoSenha = 1;
-            senha.EstadoSenha = new EstadoSenha("Nova");
-            senha.Atendido = DateTime.Now;
-            senha.IDTipoSenha = tipoSenha.IDTipoSenha;
-            senha.TipoSenha = tipoSenha;
-            senha.IDUsuario = 1;
-            tipoSenha.IDTipoSenha = 1;
 
             rep.InserirSenha(senha);
-
         }
 
         private void SenhaPreferencial_button_Click(object sender, EventArgs e)
         {
-            var senha = new Senha();
-            var tipoSenha = new TipoSenha();
             IRepositorioSenha rep = new RepositorioSenha();
+            var estsenha = new RepositorioEstadoSenha().BuscarEstadoSenha(1);
+            var senha = new Senha
+            {
+                Guiche = 0,
+                EstadoSenha = estsenha,
+                IDEstadoSenha = estsenha.IDEstado,
+                IDTipoSenha = 2, //Senha Preferencial
+                IDUsuario = 1
+            };
 
-            senha.Guiche = 0;
-            senha.IDEstadoSenha = 1;
-            senha.EstadoSenha = new EstadoSenha("Nova");
-            senha.Atendido = DateTime.Now;
-            senha.IDTipoSenha = tipoSenha.IDTipoSenha;
-            senha.TipoSenha = tipoSenha;
-            senha.IDUsuario = 1;
-            tipoSenha.IDTipoSenha = 1;
 
             rep.InserirSenha(senha);
         }
